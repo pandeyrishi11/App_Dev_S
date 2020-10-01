@@ -26,7 +26,7 @@ from firebase import firebase
 
 def get_image():
     # Fetch the service account key JSON file contents
-    cred = credentials.Certificate("yvsr-108c1-firebase-adminsdk-xvay3-d58a5e11b9.json")
+    cred = credentials.Certificate("yvsr-108c1-firebase-adminsdk-xvay3-d58a5e11b9.json")  ##Add your Json Here
 
     # Initialize the app with a service account, granting admin privileges
     app = firebase_admin.initialize_app(cred, {
